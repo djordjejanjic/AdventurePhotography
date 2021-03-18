@@ -1,0 +1,44 @@
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.gallery_container {
+    column-count: 3;
+    column-gap: 10px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .25);
+}
+
+img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+#baguetteBox-overlay .full-image img {
+    box-shadow: none;
+}
+
+@media(max-width: 900px) {
+    .gallery_container {
+        column-count: 2;
+    }
+}
+
+@media(max-width: 768px) {
+    .gallery_container {
+        column-count: 1;
+    }
+}

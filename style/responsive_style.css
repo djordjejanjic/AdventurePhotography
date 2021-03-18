@@ -1,0 +1,200 @@
+@media (max-width: 767px) {
+    .folium-map {
+        margin-bottom: 5px;
+    }
+    .menu {
+        word-spacing: 20px;
+    }
+    .menu a {
+        font-size: 20px;
+    }
+    .main_logo {
+        margin-top: 15px;
+        width: 85%;
+    }
+    .topography{
+        height: 80%;
+    }
+    #map_807a4efe44ed4d2b93a8eb957ffc4584 {
+        height: 75.0%!important;
+    }
+    #main_message {
+        display: block;
+        margin: auto;
+        font-size: 25px;
+        width: 85%;
+    }
+    .leaflet-control-attribution {
+        display: none!important;
+    }
+    
+    textarea{
+        
+        height: 130px;
+    }
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -35%);
+        width: 90%;
+    }
+    .text1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -44%);
+        width: 90%;
+    }
+    .equip-bckg {
+        font-size: 22px;
+    }
+    .text h1 {
+        font-size: 40px;
+    }
+    .second-dash {
+        display: none!important;
+    }
+    .mobile-dash {
+        display: block;
+    }
+}
+
+@media(max-height: 800px){
+    .text1 {
+        position: relative;
+        transform: translate(-50%, -70%);
+        width: 70%;
+        height:100%;
+        font-size:20px;
+        
+    }
+    
+    textarea{
+        height:50px;
+    }
+    
+    
+}
+
+@media (min-width: 450px) {
+    .text {
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+    }
+    .equip-bckg {
+        font-size: 30px;
+    }
+    
+    .text h1 {
+        font-size: 60px;
+    }
+    
+    .mobile-dash {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .text {
+        transform: translate(-45%, -50%);
+        width: 90%;
+        height: 100%;
+    }
+    
+    .text1{
+        position:absolute;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 70%;
+    }
+    
+    #map_807a4efe44ed4d2b93a8eb957ffc4584 {
+        height: 85.0%!important;
+    }
+    .equip-bckg {
+        font-size: 30px;
+    }
+    .text h1 {
+        font-size: 60px;
+    }
+    
+    .status{
+        display: block;
+        margin: auto;
+        margin-top: 8px;
+        /* margin: auto; */
+        font-size: 15px;
+        width: 70%;
+    }
+    
+    .mobile-dash {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .text {
+        
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .text1{
+        transform: translate(-50%, -40%);
+        width: 50%;
+        height: 80%;
+    }
+    #map_807a4efe44ed4d2b93a8eb957ffc4584 {
+        height: 96.0%!important;
+    }
+    
+    .text h1 {
+        color: white;
+        font-size: 80px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .gallery {
+        display: block;
+        margin: auto;
+        width: 95%;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-width: 33%;
+        -moz-column-width: 33%;
+        column-width: 33%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gallery {
+        display: block;
+        margin: auto;
+        width: 92%;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+    .btn {
+        margin-bottom: 10px!important;
+        font-size: 18px!important;
+    }
+    #butt {
+        margin-bottom: 10px!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
